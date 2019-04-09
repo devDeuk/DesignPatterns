@@ -23,6 +23,7 @@ package com.strategyEx1;
  * @author devDeuk
  */
 public class Main {
+	
 
 	/**
 	 * @param args
