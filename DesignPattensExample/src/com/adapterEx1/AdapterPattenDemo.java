@@ -7,7 +7,7 @@ package com.adapterEx1;
  * 4 STEP
  * 
  * client class
- * Adapter클래스와 상호 작용합니다.1
+ * Adapter클래스와 상호 작용합니다.
  *
  * 
  */
