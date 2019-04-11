@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+<<<<<<< HEAD
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="com.strategyEx1.Knife" project="DesignPattensExample" 
     file="/DesignPattensExample/src/com/strategyEx1/Knife.java" binary="false" corner="BOTTOM_RIGHT">    
@@ -62,6 +63,9 @@
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="2"/>  
   </realization>  
+=======
+  associations="true" dependencies="false" nesting-relationships="true">  
+>>>>>>> branch 'master' of https://github.com/devDeuk/DesignPatterns.git
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
