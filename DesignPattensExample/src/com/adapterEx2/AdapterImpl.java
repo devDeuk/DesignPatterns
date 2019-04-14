@@ -1,7 +1,5 @@
 package com.adapterEx2;
 
-import javax.swing.plaf.synth.SynthSeparatorUI;
-
 /*
  	3step
  	
