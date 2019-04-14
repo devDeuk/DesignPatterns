@@ -44,5 +44,7 @@ public abstract class AbstGameConnectHelper {
 		
 		return connection(level+"");
 	}
+
+	
 	
 }
