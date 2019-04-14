@@ -1,7 +1,15 @@
 package com.templateEx1.abst;
 
-public class DefaultGameConnectionHelper extends AbstGameConnectHelper {
-
+/**
+ * @Title  DefaultGameConnectionHelper 접속 로직
+ * @Class_nme DefaultGameConnectionHelper
+ * @Packge_name com.templateEx1.abst
+ * @File_name DefaultGameConnectionHelper.java
+ * @author  devDeuk
+ * @Since  2019. 4. 14.
+ * @Version  1.0
+ */
+public class DefaultGameConnectionHelper extends AbstGameConnectHelper { 
 	@Override
 	protected String doSecurity(String string) {
 		System.out.println("1. 디코드 영역입니다.");

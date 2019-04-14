@@ -1,5 +1,14 @@
 package com.templateEx1.abst;
 
+/**
+ * @Title  추상클래스를 이용한 메소트 패턴
+ * @Class_nme AbstGameConnectHelper
+ * @Packge_name com.templateEx1.abst
+ * @File_name AbstGameConnectHelper.java
+ * @author  devDeuk
+ * @Since  2019. 4. 14.
+ * @Version  1.0
+ */
 public abstract class AbstGameConnectHelper {
 	
 	//보안 단계 : 보안 관련 부분
