@@ -40,4 +40,4 @@
 
 
 ### 참조 페이지
-- javaTpoint - http://https://www.javatpoint.com/singleton-design-pattern-in-java
+- javaTpoint - https://www.javatpoint.com/singleton-design-pattern-in-java
