@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.builder.builderEx3.SmallPepsi" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/SmallPepsi.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="646" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.builder.builderEx3.ExtraLargeNonVegPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/ExtraLargeNonVegPizza.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="160" x="3189" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.builder.builderEx3.OrderBuilder" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/OrderBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1510" y="196"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.builder.builderEx3.MediumCoke" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/MediumCoke.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="214" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.builder.builderEx3.LargeNonVegPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/LargeNonVegPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="130" x="3389" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.builder.builderEx3.Item" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/Item.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="104" x="1449" y="445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="com.builder.builderEx3.SmallNonVegPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/SmallNonVegPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="129" x="3559" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.builder.builderEx3.VegPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/VegPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="2107" y="445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.builder.builderEx3.MediumCheezePizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/MediumCheezePizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="141" x="1078" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.builder.builderEx3.OrderedItems" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/OrderedItems.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="119" x="1449" y="270"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.builder.builderEx3.ExtraLargeCheezePizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/ExtraLargeCheezePizza.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="159" x="1259" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.builder.builderEx3.Coke" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/Coke.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="466" y="445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.builder.builderEx3.MediumOnionPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/MediumOnionPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="132" x="1458" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.builder.builderEx3.SmallOnionPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/SmallOnionPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="119" x="1630" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.builder.builderEx3.LargePepsi" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/LargePepsi.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="790" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.builder.builderEx3.MediumPepsi" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/MediumPepsi.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="934" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.builder.builderEx3.BuilederDemo" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/BuilederDemo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1503" y="69"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.builder.builderEx3.MediumMasalaPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/MediumMasalaPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="140" x="1789" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.builder.builderEx3.ExtraLargeOnionPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/ExtraLargeOnionPizza.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="150" x="1969" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.builder.builderEx3.LargeCheezePizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/LargeCheezePizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="129" x="2159" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.builder.builderEx3.MediumNonVegPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/MediumNonVegPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="142" x="3728" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.builder.builderEx3.LargeMasalaPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/LargeMasalaPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="128" x="2328" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.builder.builderEx3.Pepsi" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/Pepsi.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="790" y="445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.builder.builderEx3.ColdDrink" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/ColdDrink.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="104" x="790" y="270"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.builder.builderEx3.LargeCoke" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/LargeCoke.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="358" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.builder.builderEx3.LargeOnionPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/LargeOnionPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="120" x="2496" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.builder.builderEx3.SmallCoke" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/SmallCoke.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="502" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.builder.builderEx3.SmallMasalaPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/SmallMasalaPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="127" x="2656" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.builder.builderEx3.Pizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/Pizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="104" x="2107" y="270"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.builder.builderEx3.ExtraLargeMasalaPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/ExtraLargeMasalaPizza.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="158" x="2823" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.builder.builderEx3.NonVegPizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/NonVegPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="3389" y="445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.builder.builderEx3.SmallCheezePizza" project="DesignPattensExample" 
+    file="/DesignPattensExample/src/com/builder/builderEx3/SmallCheezePizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="128" x="3021" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <realization id="43">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="51">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="52" name="items"/>      
+      <multiplicity id="53" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <realization id="60">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <generalization id="62">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
