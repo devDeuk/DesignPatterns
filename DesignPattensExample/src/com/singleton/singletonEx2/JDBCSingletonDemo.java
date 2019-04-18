@@ -9,7 +9,7 @@ public class JDBCSingletonDemo {
 
 	public static void main(String[] args) {
 		
-		JDBCSingleton jdbcSingleton = JDBCSingleton.getInstance();
+		JDBCSingleton2 jdbcSingleton = JDBCSingleton2.getInstance();
 		
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		
