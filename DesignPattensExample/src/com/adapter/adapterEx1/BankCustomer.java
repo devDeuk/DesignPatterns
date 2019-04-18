@@ -1,4 +1,4 @@
-package com.adapterEx1;
+package com.adapter.adapterEx1;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

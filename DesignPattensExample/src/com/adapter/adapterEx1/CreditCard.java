@@ -1,4 +1,4 @@
-package com.adapterEx1;
+package com.adapter.adapterEx1;
 
 /**
  * 

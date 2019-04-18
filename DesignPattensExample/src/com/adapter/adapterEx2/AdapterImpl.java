@@ -1,4 +1,4 @@
-package com.adapterEx2;
+package com.adapter.adapterEx2;
 
 /*
  	3step
