@@ -6,20 +6,20 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-class JDBCSingleton2 {
+class JDBCSingleton {
 	//1단계
 	//JDBCSingleton 클래스를 만듭니다.
 	//정적 멤버는 JDBCSingleton 클래스의 인스터스 하나만 보유합니다.
-	 private static JDBCSingleton2 instance;
+	 private static JDBCSingleton instance;
 	 
 	 //JDBCSingleton은 다른 클래스에서 인스턴스화 방지합니다.
-	 private JDBCSingleton2() {}
+	 private JDBCSingleton() {}
 	 
 
 	 //싱글톤 access 영역
-	 public static JDBCSingleton2 getInstance() {
+	 public static JDBCSingleton getInstance() {
 		if(instance == null) {
-			instance = new JDBCSingleton2();
+			instance = new JDBCSingleton();
 		}else {
 			System.out.println("이미 instance 생성되어있음");
 		}
@@ -47,7 +47,7 @@ class JDBCSingleton2 {
         int recordCounter=0;  
           
         try {  
-            con=JDBCSingleton2.getConnection();  
+            con=JDBCSingleton.getConnection();  
             ps=con.prepareStatement("insert into userdata(uname,upassword)values(?,?)");  
             ps.setString(1, name);  
             ps.setString(2, pass);  
@@ -72,7 +72,7 @@ class JDBCSingleton2 {
                 
     	try {  
                     
-          con=JDBCSingleton2.getConnection();  
+          con=JDBCSingleton.getConnection();  
           ps=con.prepareStatement("select * from userdata where uname=?");  
           ps.setString(1, name);  
           rs=ps.executeQuery();  
@@ -98,7 +98,7 @@ class JDBCSingleton2 {
         PreparedStatement ps=null;  
         int recordCounter=0;  
         try {  
-	        con=JDBCSingleton2.getConnection();  
+	        con=JDBCSingleton.getConnection();  
 	        ps=con.prepareStatement(" update userdata set upassword=? where uname='"+name+"' ");  
 	        ps.setString(1, password);  
 	        recordCounter=ps.executeUpdate();  
