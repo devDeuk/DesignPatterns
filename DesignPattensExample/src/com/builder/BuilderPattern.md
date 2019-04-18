@@ -7,7 +7,7 @@
 * 복잡한 인스턴스를 조립하여 만드는 구조
 * 복합 객체의 생성 과정과 표현 방법을 분리하여 동일한 생성 절차에서 서로 다른 표현 결과를 만들 수 있게 하는 패턴
 
-![빌더패턴UML](https://www.javatpoint.com/images/designpattern/builderuml1.jpg)
+![빌더패턴UML](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Builder_UML_class_diagram.svg/500px-Builder_UML_class_diagram.svg.png)
 
 
 ### 1) 빌더 패턴의 장점
@@ -31,7 +31,7 @@
 
 
 예2)
-![빌더패턴UML](https://www.javatpoint.com/images/designpattern/builderuml2.jpg)
+![빌더패턴 예제2](https://www.javatpoint.com/images/designpattern/builderuml2.jpg)
 
 
 

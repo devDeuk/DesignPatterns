@@ -1,4 +1,4 @@
-package com.templateEx1.abst;
+package com.template.templateEx1.abst;
 
 /**
  * @Title  추상클래스를 이용한 메소트 패턴
