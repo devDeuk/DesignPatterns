@@ -1,4 +1,4 @@
-package com.strategy;
+package com.strategy.strategyEx3;
 
 public class AObj {
 	
