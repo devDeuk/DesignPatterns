@@ -31,7 +31,7 @@ class JDBCSingleton {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://devdeuk.iptime.org:53306/kubdb", "kub", "xmsxms2");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/kubdb", "kub", "xmsxms2");
 			
 			System.out.println("Mysql 데이타베이스 접속");			
 		} catch (Exception e) {
