@@ -1,7 +1,7 @@
-package com.factorymethodEx1.concrete;
+package com.factory.factorymethodEx1.concrete;
 
-import com.factorymethodEx1.framework.Item;
-import com.factorymethodEx1.framework.ItemCreator;
+import com.factory.factorymethodEx1.framework.Item;
+import com.factory.factorymethodEx1.framework.ItemCreator;
 
 public class Main {
 

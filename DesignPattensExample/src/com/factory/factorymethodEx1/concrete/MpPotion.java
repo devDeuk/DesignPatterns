@@ -1,6 +1,6 @@
-package com.factorymethodEx1.concrete;
+package com.factory.factorymethodEx1.concrete;
 
-import com.factorymethodEx1.framework.Item;
+import com.factory.factorymethodEx1.framework.Item;
 
 public class MpPotion implements Item {
 

@@ -1,9 +1,9 @@
-package com.factorymethodEx1.concrete;
+package com.factory.factorymethodEx1.concrete;
 
 import java.util.Date;
 
-import com.factorymethodEx1.framework.Item;
-import com.factorymethodEx1.framework.ItemCreator;
+import com.factory.factorymethodEx1.framework.Item;
+import com.factory.factorymethodEx1.framework.ItemCreator;
 
 public class MpCreator extends ItemCreator {
 

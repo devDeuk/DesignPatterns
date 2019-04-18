@@ -1,4 +1,4 @@
-package com.factorymethodEx1.framework;
+package com.factory.factorymethodEx1.framework;
 
 public interface Item {
 
