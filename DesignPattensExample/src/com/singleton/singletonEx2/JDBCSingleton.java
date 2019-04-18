@@ -31,7 +31,7 @@ class JDBCSingleton {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/kubdb", "kub", "xmsxms2");
+			con=DriverManager.getConnection("jdbc:mysql://devdeuk.iptime.org:53306/kubdb", "kub", "xmsxms2");
 			
 			System.out.println("Mysql 데이타베이스 접속");			
 		} catch (Exception e) {
@@ -47,7 +47,7 @@ class JDBCSingleton {
         int recordCounter=0;  
           
         try {  
-            con=this.getConnection();  
+            con=JDBCSingleton.getConnection();  
             ps=con.prepareStatement("insert into userdata(uname,upassword)values(?,?)");  
             ps.setString(1, name);  
             ps.setString(2, pass);  
@@ -72,7 +72,7 @@ class JDBCSingleton {
                 
     	try {  
                     
-          con=this.getConnection();  
+          con=JDBCSingleton.getConnection();  
           ps=con.prepareStatement("select * from userdata where uname=?");  
           ps.setString(1, name);  
           rs=ps.executeQuery();  
@@ -98,7 +98,7 @@ class JDBCSingleton {
         PreparedStatement ps=null;  
         int recordCounter=0;  
         try {  
-	        con=this.getConnection();  
+	        con=JDBCSingleton.getConnection();  
 	        ps=con.prepareStatement(" update userdata set upassword=? where uname='"+name+"' ");  
 	        ps.setString(1, password);  
 	        recordCounter=ps.executeUpdate();  

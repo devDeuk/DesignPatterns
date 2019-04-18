@@ -1,7 +1,7 @@
-package com.templateEx1;
+package com.template.templateEx1;
 
-import com.templateEx1.abst.AbstGameConnectHelper;
-import com.templateEx1.abst.DefaultGameConnectionHelper;
+import com.template.templateEx1.abst.AbstGameConnectHelper;
+import com.template.templateEx1.abst.DefaultGameConnectionHelper;
 
 /*
  * 템플릿 메소드 패턴

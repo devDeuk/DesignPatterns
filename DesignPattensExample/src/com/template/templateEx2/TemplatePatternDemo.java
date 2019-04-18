@@ -1,6 +1,6 @@
-package com.templateEx2;
+package com.template.templateEx2;
 
-import com.templateEx2.abst.Game;
+import com.template.templateEx2.abst.Game;
 
 public class TemplatePatternDemo {
 

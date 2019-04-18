@@ -1,4 +1,4 @@
-package com.templateEx1.abst;
+package com.template.templateEx1.abst;
 
 /**
  * @Title  DefaultGameConnectionHelper 접속 로직

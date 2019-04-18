@@ -1,4 +1,4 @@
-package com.templateEx2.abst;
+package com.template.templateEx2.abst;
 
 public abstract class Game {
 
